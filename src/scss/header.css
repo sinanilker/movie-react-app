@@ -1,0 +1,33 @@
+* {
+  margin: auto;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  height: 100vh;
+}
+.header i {
+  color: white;
+}
+.header .header-image {
+  height: 100%;
+}
+.header .header-image ::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.header-suggestions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}/*# sourceMappingURL=header.css.map */

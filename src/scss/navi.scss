@@ -1,0 +1,35 @@
+nav{
+    // background: rgb(46, 49, 46);
+    padding: 20px;
+    height: 30px;
+    display: flex;
+    border-radius: 25px;
+        justify-content: space-between;
+    h3,ul,li{
+        margin:0;
+        padding:0;
+        
+    }
+    h3{
+        font-family: monospace;
+        color: aliceblue;
+        font-size: 20px;
+        letter-spacing: 2px;
+    }
+    li{
+        display: inline;
+        margin-inline: 20px;
+    }
+    i,a {
+        color: aliceblue;
+        display: inline-block;
+        font-family: monospace;
+        transition: .6s;
+        text-decoration: none;
+        &:hover{
+            color: rgb(255, 88, 27);
+            transform: scale(1.3);
+            cursor: pointer;
+        }
+    }
+}

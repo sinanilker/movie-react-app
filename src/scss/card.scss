@@ -1,0 +1,49 @@
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    // To prepare the site for other cards to arrive for later
+    .card {
+        margin: 15px;
+        width: 450px;
+        height: 300px;
+        border-radius: 25px;
+        color:rgb(23, 23, 23);
+        display: flex;
+        background: blanchedalmond;
+        font-size: 15px;
+        transition: .5s;
+        &:hover{
+            // transform: scale(1.05);
+            background: rgb(243, 174, 72);
+        }
+    }
+    img {
+        width:200px;
+        height: 300px;
+        border-radius: 25px;
+    }
+    .card-body {
+        margin: 15px;
+        position: relative;
+    }
+    button{
+        position: absolute;
+        width: 25px;
+        height: 300px;
+        border-radius: 25px;
+        cursor: pointer;
+        opacity: .2;
+        transition: .6s;
+        border: none;
+        font-size: 15px;
+        // font-family: monospace;
+        &:hover{
+            width: 200px;
+            opacity:.4;
+            background-color: darkred;
+            color: white;
+            font-size: 30px;
+        }
+    }
+}
