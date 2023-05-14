@@ -3,7 +3,7 @@ import '../../scss/card.scss'
 
 export const Card = ({ movies }) => {
   return (
-    <div className="card-container">
+    <div className="card-container" id="cards">
       {movies.map((movie) => (
         <div key={movie.id} className="card">
           <button>X</button>

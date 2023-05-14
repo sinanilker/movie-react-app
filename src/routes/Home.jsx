@@ -40,7 +40,7 @@ export const Home = () => {
   return (
     // React Fragment
     <>
-      <Header />
+      
       <SectionFirst />
       <Form newMovie={newMovie} />
       <Card movies={movies} />

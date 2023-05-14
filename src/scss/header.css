@@ -1,5 +1,6 @@
 * {
   margin: auto;
+  text-decoration: none;
 }
 
 .header {
@@ -9,21 +10,36 @@
   flex-direction: column;
   text-align: center;
   height: 100vh;
+  font-family: "Oswald", sans-serif;
+  background: url("https://s3.amazonaws.com/static.rogerebert.com/uploads/review/primary_image/reviews/her-2013/Her-2013-2.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 .header i {
   color: white;
 }
-.header .header-image {
-  height: 100%;
+.header .movie-suggestion {
+  background-color: rgba(0, 0, 0, 0.412);
+  border: none;
+  padding: 10px;
+  border-radius: 15px;
+  gap: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  font-size: 25px;
+  color: wheat;
 }
-.header .header-image ::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.1);
+.header .movie-suggestion :first-of-type {
+  color: rgb(255, 69, 69);
+}
+.header .movie-suggestion h2 {
+  color: rgb(255, 255, 255);
+}
+.header .movie-title {
+  color: aliceblue;
 }
 
 .header-suggestions {

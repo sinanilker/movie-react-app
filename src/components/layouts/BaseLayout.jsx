@@ -1,6 +1,8 @@
 import React from "react";
 import Navi from "../block/Navi";
 import { Outlet } from "react-router";
+import Header from "../block/Header";
+
 
 const Layout = () => {
   return (
@@ -8,7 +10,8 @@ const Layout = () => {
     // React router gives us outlet and outer part
     // <Outlet /> gives us the inner part
     <>
-      <Navi></Navi>
+    <Navi></Navi>
+      <Header />
       <header>Header</header>
       <Outlet></Outlet>
       <footer>Footer</footer>
