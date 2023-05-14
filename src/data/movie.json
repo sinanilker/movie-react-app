@@ -10,11 +10,19 @@
     },
     {
       "id": 2,
-      "categoryId": 3,
+      "categoryId": 1,
       "title": "The Godfather",
       "year": 1972,
       "director": "Francis Ford Coppola",
       "movieImage": "https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg"
+    },
+    {
+      "id":3,
+      "categoryId": 2,
+      "title": "Fight Club",
+      "year": 1999,
+      "director": "David Fincher",
+      "movieImage": "https://m.media-amazon.com/images/M/MV5BMjJmYTNkNmItYjYyZC00MGUxLWJhNWMtZDY4Nzc1MDAwMzU5XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_FMjpg_UX1000_.jpg"
     }
   ],
   "categories": [
@@ -33,6 +41,18 @@
     {
       "categoryId": 3,
       "categoryTitle": "Drama"
+    },
+    {
+      "categoryId": 4,
+      "categoryTitle": "Horror"
+    },
+    {
+      "categoryId": 5,
+      "categoryTitle": "Romance"
+    },
+    {
+      "categoryId": 6,
+      "categoryTitle": "Sci-Fi"
     }
   ]
 }

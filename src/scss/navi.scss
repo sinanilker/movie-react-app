@@ -15,6 +15,7 @@ nav{
         color: aliceblue;
         font-size: 20px;
         letter-spacing: 2px;
+        cursor: pointer;
     }
     li{
         display: inline;
@@ -26,10 +27,10 @@ nav{
         font-family: monospace;
         transition: .6s;
         text-decoration: none;
+        cursor: pointer;
         &:hover{
-            color: rgb(255, 88, 27);
-            transform: scale(1.3);
-            cursor: pointer;
+            // color: rgb(255, 88, 27);
+            border-bottom: 3px solid white;
         }
     }
 }

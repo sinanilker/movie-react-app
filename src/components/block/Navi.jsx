@@ -26,7 +26,7 @@ export const Navi = () => {
 
   return (
     <nav>
-      <h3 className="brand">Movie Suggestions</h3>
+      <h3 path="/" className="brand"><a href="/">MS</a></h3>
       <ul className="">
         {categories.map((category) => (
           <li key={category.categoryId}><Link to={"/category/" + slugify(category.categoryTitle)} >
