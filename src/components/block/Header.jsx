@@ -24,7 +24,7 @@ function Header() {
         </div>
       </div>
       <div className="movie-suggestion">
-        <h1>Suggestion of the day!</h1>
+        <h1>Suggestion of the day!</ h1>
         <h1>{"For " +currentDate}</h1>
         <h2 className="movie-title">Her</h2>
         <h4>{"Director: " + movie.director}</h4>
