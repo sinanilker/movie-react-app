@@ -1,12 +1,14 @@
 import axios from "axios";
 import React, { createContext, useEffect, useState } from "react";
 
+// to create a context to use in other JSX's
 export const MoviesContext = createContext();
 
 const MoviesContext = ({ children }) => {
   const [movieList, setMovieList] = useState([]);
   const [isMovieListLoading, setIsMovieListLoading] = useState(false);
 
+  // Making possible to use the deleteMovies function everywhere in other JSX's
   const deleteMovies = (movie) =>
     setMovieList((prevMovieList) =>
       prevMovieList.filter((movie) => movie.id !== id)
@@ -31,6 +33,7 @@ const MoviesContext = ({ children }) => {
         console.log(error);
       }
     };
+    // to trigger useEffect
     getMovies();
   });
 
