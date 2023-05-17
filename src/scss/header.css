@@ -13,6 +13,7 @@
   background: url("https://s3.amazonaws.com/static.rogerebert.com/uploads/review/primary_image/reviews/her-2013/Her-2013-2.jpg");
   background-repeat: no-repeat;
   background-size: contain;
+  margin-bottom: -444px;
 }
 .header i {
   color: white;

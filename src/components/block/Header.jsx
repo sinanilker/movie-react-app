@@ -30,7 +30,7 @@ function Header() {
         <h1>Suggestion of the day!</h1>
         <h1>{"For " + currentDate}</h1>
         <h2 className="movie-title">Her</h2>
-        <h4>{"Director: " + movie.director + " Year: "+ movie.year}</h4>
+        <h4>{"Director: " + movie.director + ", Year: "+ movie.year}</h4>
         <button className="attention-button">
           For More{" "}
           <i>
