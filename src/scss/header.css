@@ -5,10 +5,9 @@
 
 .header {
   display: flex;
-  align-items: center;
+  align-items: start;
   justify-content: center;
   flex-direction: column;
-  text-align: center;
   height: 100vh;
   font-family: "Oswald", sans-serif;
   background: url("https://s3.amazonaws.com/static.rogerebert.com/uploads/review/primary_image/reviews/her-2013/Her-2013-2.jpg");
@@ -21,25 +20,45 @@
 .header .movie-suggestion {
   background-color: rgba(0, 0, 0, 0.412);
   border: none;
-  padding: 10px;
-  border-radius: 15px;
-  gap: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  text-align: center;
+  padding: 15px;
+  display: inline-block;
+  position: absolute;
+  top: 80px;
+  left: 10px;
   font-size: 25px;
   color: wheat;
+  transition: 0.6s;
+  cursor: default;
 }
-.header .movie-suggestion :first-of-type {
-  color: rgb(255, 69, 69);
+.header .movie-suggestion h1:first-child {
+  font-size: 24px;
 }
-.header .movie-suggestion h2 {
-  color: rgb(255, 255, 255);
+.header .movie-suggestion h1 {
+  font-size: 32px;
+}
+.header .movie-suggestion h4 {
+  font-size: 18px;
 }
 .header .movie-title {
-  color: aliceblue;
+  color: rgb(255, 69, 69);
+}
+.header .movie-suggestion:hover {
+  background-color: rgba(0, 0, 0, 0.712);
+  color: white;
+}
+
+.attention-button {
+  padding: 5px;
+  text-decoration: none;
+  border: none;
+  color: beige;
+  background: rgb(255, 69, 69);
+  font-size: 15px;
+  transition: 0.6s;
+  cursor: pointer;
+}
+.attention-button :hover {
+  border: 3px solid black;
 }
 
 .header-suggestions {
